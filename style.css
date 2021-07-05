@@ -1,0 +1,23 @@
+/* VARIABLES */
+:root {
+  --brown: #463718;
+  --white: white;
+  --lime: lime;
+  --lightbrown: #9B8473;
+  --text: 'Replica Pro';
+  /* --bold: 'Replica Bold';
+	--bolditalic: 'Replica Bold'; */
+  --siggy: 'Siggy RJ numbers';
+}
+
+/* FONTS */
+
+/* BASICS */
+html, body {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  background-color: pink;
+}
