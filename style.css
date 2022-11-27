@@ -19,10 +19,27 @@ html, body {
 
 body {
   text-decoration: none;
-  background-color: pink;
+  background-color: lightgrey;
 }
 
 .title {
   font-size: 5vw;
-  font-family: Forum, serif;
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.main-text {
+  width: 50%;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+img {
+  width: 30%;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5%;
 }
