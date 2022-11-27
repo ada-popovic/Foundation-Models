@@ -25,9 +25,10 @@ body {
 .title {
   font-size: 5vw;
   font-family: sans-serif;
+  font-weight: bold;
   margin-left: 10%;
   margin-top: 5%;
-  color: rgb(72, 255, 0);
+  color: black;
 }
 
 .main-text {
@@ -36,6 +37,15 @@ body {
   font-family: sans-serif;
   margin-left: 10%;
   margin-top: 5%;
+}
+
+.image-description{
+  width: 20%;
+  font-size: 1vw;
+  font-family: sans-serif;
+  margin-left: 10%;
+  margin-top: 1%;
+  align-items: center;
 }
 
 img {
