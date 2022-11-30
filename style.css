@@ -1,56 +1,248 @@
 /* VARIABLES */
 :root {
-  --brown: #463718;
-  --white: white;
-  --lime: lime;
-  --lightbrown: #9B8473;
   --text: 'Replica Pro';
-  /* --bold: 'Replica Bold';
-	--bolditalic: 'Replica Bold'; */
   --siggy: 'Siggy RJ numbers';
 }
 
 /* FONTS */
 
+
 /* BASICS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html, body {
   text-decoration: none;
 }
 
 body {
   text-decoration: none;
-  background-color: lightgrey;
+  background-color: rgb(221, 228, 226);
+  width: 100%;
+  max-width: 100%;
+  max-height: 2000px;
+    overflow-x: hidden;
+    display: flex;
+  
 }
 
+.text-block {
+  position: absolute;
+}
+
+
 .title {
-  font-size: 5vw;
+  width: 50%;
+  align-items: center;
+  font-size: 3vw;
   font-family: sans-serif;
   font-weight: bold;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 25%;
+  margin-top: 2%;
   color: black;
+  text-align: center;
+}
+
+.subtitle {
+  width: 50%;
+  align-items: center;
+  font-size: 2vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  width: 50%;
+  align-items: center;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 25%;
+  margin-top: 1%;
+  color: black;
+  text-align: center;
 }
 
 .main-text {
   width: 50%;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   font-family: sans-serif;
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 25%;
+  margin-top: 1%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.side-text {
+  width: 20%;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-justify: inter-word;
+  position: -webkit-sticky;
+  position: fixed;
+  margin-top: 15.5%;
+  margin-left: 1%;;
+}
+
+.side-text-2 {
+  width: 20%;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-justify: inter-word;
+  position: -webkit-sticky;
+  position: fixed;
+  margin-top: 15.5%;
+  margin-left: 77%;;
+}
+
+
+
+.image {
+  position: absolute;
+  width: 100%;
+  filter: drop-shadow(0px 0px 5px black);
 }
 
 .image-description{
-  width: 20%;
   font-size: 1vw;
   font-family: sans-serif;
-  margin-left: 10%;
-  margin-top: 1%;
-  align-items: center;
+  margin-left: 0%;
+  align-items: left;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px black;
 }
 
 img {
-  width: 30%;
-  align-items: center;
-  margin-left: 10%;
+  width: 15%;
+  align-items: left;
+  margin-top: 10%;
+  z-index: 10;
+}
+
+.image-1 {
+  position: absolute;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 0%;
+}
+
+.image-2 {
+  position: absolute;
+  width: 100%;
+  margin-left: 3%;
+  margin-top: 15%;
+}
+
+.image-3 {
+  position: absolute;
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 32%;
+}
+
+.image-4 {
+  position: absolute;
+  width: 100%;
+  margin-left: 15%;
+  margin-top: 45%;
+}
+
+.image-5 {
+  position: absolute;
+  width: 100%;
+  margin-left: 3%;
+  margin-top: 60%;
+}
+
+.image-6 {
+  position: absolute;
+  width: 100%;
+  margin-left: 7%;
+  margin-top: 75%;
+}
+
+.image-7 {
+  position: absolute;
+  width: 100%;
+  margin-left: 17%;
+  margin-top: 90%;
+}
+
+.image-8 {
+  position: absolute;
+  width: 100%;
+  margin-left: 9%;
+  margin-top: 105%;
+}
+
+
+
+
+
+.image-9 {
+  position: absolute;
+  width: 100%;
+  margin-left: 75%;
   margin-top: 5%;
 }
+
+.image-10 {
+  position: absolute;
+  width: 100%;
+  margin-left: 80%;
+  margin-top: 22%;
+}
+
+.image-11 {
+  position: absolute;
+  width: 100%;
+  margin-left: 70%;
+  margin-top: 35%;
+}
+
+.image-12 {
+  position: absolute;
+  width: 100%;
+  margin-left: 72%;
+  margin-top: 50%;
+}
+
+.image-13 {
+  position: absolute;
+  width: 100%;
+  margin-left: 65%;
+  margin-top: 65%;
+}
+
+.image-14 {
+  position: absolute;
+  width: 100%;
+  margin-left: 75%;
+  margin-top: 80%;
+}
+
+.image-15 {
+  position: absolute;
+  width: 100%;
+  margin-left: 70%;
+  margin-top: 95%;
+}
+
+.image-16 {
+  position: absolute;
+  width: 100%;
+  margin-left: 75%;
+  margin-top: 110%;
+}
+
